@@ -142,7 +142,10 @@ input{
 }
 }
 
-
+@media (0 < width < 600px){
+flex-direction: column;
+height: 120px;
+}
 `;
 
 const FilterContainer = styled.section`
